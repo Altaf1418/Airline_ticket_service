@@ -405,8 +405,6 @@ class details
  	}
  	void dispbill()
  	{
- 	    //cout<<"dbg in dispbill\n";
- 	    //return;
  		ifstream ifs("record.txt");
  		{
  			if(ifs.is_open()==false)
